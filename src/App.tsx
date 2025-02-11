@@ -1,4 +1,3 @@
-import React from 'react';
 import MeasurementConverter from './MeasurementConverter'; // Make sure the path is correct
 
 function App() {
