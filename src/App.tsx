@@ -1,9 +1,10 @@
-import MeasurementConverter from './MeasurementConverter'; // Make sure the path is correct
+import MeasurementConverter from './MeasurementConverter'; 
 
 function App() {
   return (
-    <div className="App">
+    <div className="app-container">
       <h1>Measurement Converter</h1>
+      <p>Enter a measurement in inches and click "Convert" to see the result in centimeters and feet.</p>
       <MeasurementConverter />
     </div>
   );
